@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEAC723C1522E1A1004CCA71 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF931521C19B0013C03F /* WebServices.m */; };
+		CEAF3E8A15297B3F00B6B0BA /* SubmissionDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF3E8615297B3500B6B0BA /* SubmissionDataTest.m */; };
+		CEAF3ED91529C55200B6B0BA /* PhotosdataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF3ED51529C54800B6B0BA /* PhotosdataTest.m */; };
+		CEC6CF301521833C0013C03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CF2F1521833C0013C03F /* Foundation.framework */; };
+		CEC6CF361521833C0013C03F /* PWINTY.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF351521833C0013C03F /* PWINTY.m */; };
+		CEC6CF3E1521833C0013C03F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CF3D1521833C0013C03F /* SenTestingKit.framework */; };
+		CEC6CF411521833C0013C03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CF2F1521833C0013C03F /* Foundation.framework */; };
+		CEC6CF441521833C0013C03F /* libPWINTY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CF2C1521833C0013C03F /* libPWINTY.a */; };
+		CEC6CF4A1521833C0013C03F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC6CF481521833C0013C03F /* InfoPlist.strings */; };
+		CEC6CF4D1521833C0013C03F /* PWINTYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF4C1521833C0013C03F /* PWINTYTests.m */; };
+		CEC6CF651521914E0013C03F /* Loader.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6CF631521914E0013C03F /* Loader.h */; };
+		CEC6CF661521914E0013C03F /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF641521914E0013C03F /* Loader.m */; };
+		CEC6CF7A15219C550013C03F /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6CF7815219C550013C03F /* Utils.h */; };
+		CEC6CF7B15219C550013C03F /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF7915219C550013C03F /* Utils.m */; };
+		CEC6CF7E15219C8A0013C03F /* PwintyKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6CF7C15219C8A0013C03F /* PwintyKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC6CF7F15219C8A0013C03F /* PwintyKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF7D15219C8A0013C03F /* PwintyKeys.m */; };
+		CEC6CF941521C19B0013C03F /* WebServices.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6CF921521C19B0013C03F /* WebServices.h */; settings = {ATTRIBUTES = (); }; };
+		CEC6CF951521C19B0013C03F /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CF931521C19B0013C03F /* WebServices.m */; };
+		CEC6D00A1521DC710013C03F /* PWINTY.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6CF341521833C0013C03F /* PWINTY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC6D01F1521DFD90013C03F /* OrdersData.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6D01D1521DFD90013C03F /* OrdersData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC6D0201521DFD90013C03F /* OrdersData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D01E1521DFD90013C03F /* OrdersData.m */; };
+		CEC6D0331521E1FE0013C03F /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6D0261521E1FE0013C03F /* JSON.h */; };
+		CEC6D0341521E1FE0013C03F /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6D0271521E1FE0013C03F /* NSObject+SBJSON.h */; };
+		CEC6D0351521E1FE0013C03F /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D0281521E1FE0013C03F /* NSObject+SBJSON.m */; };
+		CEC6D0361521E1FE0013C03F /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6D0291521E1FE0013C03F /* NSString+SBJSON.h */; };
+		CEC6D0371521E1FE0013C03F /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D02A1521E1FE0013C03F /* NSString+SBJSON.m */; };
+		CEC6D0381521E1FE0013C03F /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6D02B1521E1FE0013C03F /* SBJSON.h */; };
+		CEC6D0391521E1FE0013C03F /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D02C1521E1FE0013C03F /* SBJSON.m */; };
+		CEC6D03A1521E1FE0013C03F /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6D02D1521E1FE0013C03F /* SBJsonBase.h */; };
+		CEC6D03B1521E1FE0013C03F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D02E1521E1FE0013C03F /* SBJsonBase.m */; };
+		CEC6D03C1521E1FE0013C03F /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6D02F1521E1FE0013C03F /* SBJsonParser.h */; };
+		CEC6D03D1521E1FE0013C03F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D0301521E1FE0013C03F /* SBJsonParser.m */; };
+		CEC6D03E1521E1FE0013C03F /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC6D0311521E1FE0013C03F /* SBJsonWriter.h */; };
+		CEC6D03F1521E1FE0013C03F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D0321521E1FE0013C03F /* SBJsonWriter.m */; };
+		CED96243152C113900A6D3D3 /* WebServicesProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CED96242152C113900A6D3D3 /* WebServicesProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE8002015247BEA00E1DC9A /* SubmissionData.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8001E15247BEA00E1DC9A /* SubmissionData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE8002115247BEA00E1DC9A /* SubmissionData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8001F15247BEA00E1DC9A /* SubmissionData.m */; };
+		CEE800251524813500E1DC9A /* PhotosData.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE800231524813500E1DC9A /* PhotosData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE800261524813500E1DC9A /* PhotosData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE800241524813500E1DC9A /* PhotosData.m */; };
+		CEEDB2291525DE5100DBEF09 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CF3D1521833C0013C03F /* SenTestingKit.framework */; };
+		CEEDB22A1525DFBC00DBEF09 /* OrdersData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D01E1521DFD90013C03F /* OrdersData.m */; };
+		CEEDB22F1525E20D00DBEF09 /* OrderDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDB2261525DE2B00DBEF09 /* OrderDataTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC6CF421521833C0013C03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC6CF231521833C0013C03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC6CF2B1521833C0013C03F;
+			remoteInfo = PWINTY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEAF3E8515297B3500B6B0BA /* SubmissionDataTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmissionDataTest.h; sourceTree = "<group>"; };
+		CEAF3E8615297B3500B6B0BA /* SubmissionDataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmissionDataTest.m; sourceTree = "<group>"; };
+		CEAF3ED41529C54800B6B0BA /* PhotosdataTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosdataTest.h; sourceTree = "<group>"; };
+		CEAF3ED51529C54800B6B0BA /* PhotosdataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosdataTest.m; sourceTree = "<group>"; };
+		CEC6CF2C1521833C0013C03F /* libPWINTY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPWINTY.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC6CF2F1521833C0013C03F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC6CF331521833C0013C03F /* PWINTY-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "PWINTY-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CEC6CF341521833C0013C03F /* PWINTY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWINTY.h; sourceTree = "<group>"; };
+		CEC6CF351521833C0013C03F /* PWINTY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PWINTY.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CEC6CF3C1521833C0013C03F /* PWINTYTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWINTYTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC6CF3D1521833C0013C03F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEC6CF471521833C0013C03F /* PWINTYTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PWINTYTests-Info.plist"; sourceTree = "<group>"; };
+		CEC6CF491521833C0013C03F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC6CF4B1521833C0013C03F /* PWINTYTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWINTYTests.h; sourceTree = "<group>"; };
+		CEC6CF4C1521833C0013C03F /* PWINTYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWINTYTests.m; sourceTree = "<group>"; };
+		CEC6CF631521914E0013C03F /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Loader.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CEC6CF641521914E0013C03F /* Loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Loader.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CEC6CF7815219C550013C03F /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		CEC6CF7915219C550013C03F /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		CEC6CF7C15219C8A0013C03F /* PwintyKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwintyKeys.h; sourceTree = "<group>"; };
+		CEC6CF7D15219C8A0013C03F /* PwintyKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PwintyKeys.m; sourceTree = "<group>"; };
+		CEC6CF921521C19B0013C03F /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = WebServices.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CEC6CF931521C19B0013C03F /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WebServices.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CEC6D01D1521DFD90013C03F /* OrdersData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OrdersData.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CEC6D01E1521DFD90013C03F /* OrdersData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OrdersData.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		CEC6D0261521E1FE0013C03F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		CEC6D0271521E1FE0013C03F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		CEC6D0281521E1FE0013C03F /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		CEC6D0291521E1FE0013C03F /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		CEC6D02A1521E1FE0013C03F /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		CEC6D02B1521E1FE0013C03F /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		CEC6D02C1521E1FE0013C03F /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		CEC6D02D1521E1FE0013C03F /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		CEC6D02E1521E1FE0013C03F /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		CEC6D02F1521E1FE0013C03F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		CEC6D0301521E1FE0013C03F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		CEC6D0311521E1FE0013C03F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		CEC6D0321521E1FE0013C03F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		CED96242152C113900A6D3D3 /* WebServicesProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServicesProtocol.h; sourceTree = "<group>"; };
+		CEE8001E15247BEA00E1DC9A /* SubmissionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmissionData.h; sourceTree = "<group>"; };
+		CEE8001F15247BEA00E1DC9A /* SubmissionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmissionData.m; sourceTree = "<group>"; };
+		CEE800231524813500E1DC9A /* PhotosData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosData.h; sourceTree = "<group>"; };
+		CEE800241524813500E1DC9A /* PhotosData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosData.m; sourceTree = "<group>"; };
+		CEEDB2251525DE2B00DBEF09 /* OrderDataTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDataTest.h; sourceTree = "<group>"; };
+		CEEDB2261525DE2B00DBEF09 /* OrderDataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDataTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC6CF291521833C0013C03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDB2291525DE5100DBEF09 /* SenTestingKit.framework in Frameworks */,
+				CEC6CF301521833C0013C03F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC6CF381521833C0013C03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6CF3E1521833C0013C03F /* SenTestingKit.framework in Frameworks */,
+				CEC6CF411521833C0013C03F /* Foundation.framework in Frameworks */,
+				CEC6CF441521833C0013C03F /* libPWINTY.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC6CF211521833C0013C03F = {
+			isa = PBXGroup;
+			children = (
+				CEC6CF311521833C0013C03F /* PWINTY */,
+				CEC6CF451521833C0013C03F /* PWINTYTests */,
+				CEC6CF2E1521833C0013C03F /* Frameworks */,
+				CEC6CF2D1521833C0013C03F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC6CF2D1521833C0013C03F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CF2C1521833C0013C03F /* libPWINTY.a */,
+				CEC6CF3C1521833C0013C03F /* PWINTYTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC6CF2E1521833C0013C03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CF2F1521833C0013C03F /* Foundation.framework */,
+				CEC6CF3D1521833C0013C03F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC6CF311521833C0013C03F /* PWINTY */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6D01C1521DFBB0013C03F /* Structures */,
+				CEC6CF67152191A00013C03F /* Utils */,
+				CEC6CF5A152190780013C03F /* WEB */,
+				CEC6CF341521833C0013C03F /* PWINTY.h */,
+				CEC6CF351521833C0013C03F /* PWINTY.m */,
+				CEC6CF321521833C0013C03F /* Supporting Files */,
+			);
+			path = PWINTY;
+			sourceTree = "<group>";
+		};
+		CEC6CF321521833C0013C03F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CF331521833C0013C03F /* PWINTY-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC6CF451521833C0013C03F /* PWINTYTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CF4B1521833C0013C03F /* PWINTYTests.h */,
+				CEC6CF4C1521833C0013C03F /* PWINTYTests.m */,
+				CEC6CF461521833C0013C03F /* Supporting Files */,
+				CEEDB2251525DE2B00DBEF09 /* OrderDataTest.h */,
+				CEEDB2261525DE2B00DBEF09 /* OrderDataTest.m */,
+				CEAF3E8515297B3500B6B0BA /* SubmissionDataTest.h */,
+				CEAF3E8615297B3500B6B0BA /* SubmissionDataTest.m */,
+				CEAF3ED41529C54800B6B0BA /* PhotosdataTest.h */,
+				CEAF3ED51529C54800B6B0BA /* PhotosdataTest.m */,
+			);
+			path = PWINTYTests;
+			sourceTree = "<group>";
+		};
+		CEC6CF461521833C0013C03F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CF471521833C0013C03F /* PWINTYTests-Info.plist */,
+				CEC6CF481521833C0013C03F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC6CF5A152190780013C03F /* WEB */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CF631521914E0013C03F /* Loader.h */,
+				CEC6CF641521914E0013C03F /* Loader.m */,
+				CEC6CF921521C19B0013C03F /* WebServices.h */,
+				CEC6CF931521C19B0013C03F /* WebServices.m */,
+				CED96242152C113900A6D3D3 /* WebServicesProtocol.h */,
+			);
+			name = WEB;
+			sourceTree = "<group>";
+		};
+		CEC6CF67152191A00013C03F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6D0251521E1FE0013C03F /* JSON */,
+				CEC6CF7815219C550013C03F /* Utils.h */,
+				CEC6CF7915219C550013C03F /* Utils.m */,
+				CEC6CF7C15219C8A0013C03F /* PwintyKeys.h */,
+				CEC6CF7D15219C8A0013C03F /* PwintyKeys.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		CEC6D01C1521DFBB0013C03F /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6D01D1521DFD90013C03F /* OrdersData.h */,
+				CEC6D01E1521DFD90013C03F /* OrdersData.m */,
+				CEE8001E15247BEA00E1DC9A /* SubmissionData.h */,
+				CEE8001F15247BEA00E1DC9A /* SubmissionData.m */,
+				CEE800231524813500E1DC9A /* PhotosData.h */,
+				CEE800241524813500E1DC9A /* PhotosData.m */,
+			);
+			name = Structures;
+			sourceTree = "<group>";
+		};
+		CEC6D0251521E1FE0013C03F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6D0261521E1FE0013C03F /* JSON.h */,
+				CEC6D0271521E1FE0013C03F /* NSObject+SBJSON.h */,
+				CEC6D0281521E1FE0013C03F /* NSObject+SBJSON.m */,
+				CEC6D0291521E1FE0013C03F /* NSString+SBJSON.h */,
+				CEC6D02A1521E1FE0013C03F /* NSString+SBJSON.m */,
+				CEC6D02B1521E1FE0013C03F /* SBJSON.h */,
+				CEC6D02C1521E1FE0013C03F /* SBJSON.m */,
+				CEC6D02D1521E1FE0013C03F /* SBJsonBase.h */,
+				CEC6D02E1521E1FE0013C03F /* SBJsonBase.m */,
+				CEC6D02F1521E1FE0013C03F /* SBJsonParser.h */,
+				CEC6D0301521E1FE0013C03F /* SBJsonParser.m */,
+				CEC6D0311521E1FE0013C03F /* SBJsonWriter.h */,
+				CEC6D0321521E1FE0013C03F /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CEC6CF2A1521833C0013C03F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6D00A1521DC710013C03F /* PWINTY.h in Headers */,
+				CEC6CF7E15219C8A0013C03F /* PwintyKeys.h in Headers */,
+				CED96243152C113900A6D3D3 /* WebServicesProtocol.h in Headers */,
+				CEE800251524813500E1DC9A /* PhotosData.h in Headers */,
+				CEC6D01F1521DFD90013C03F /* OrdersData.h in Headers */,
+				CEE8002015247BEA00E1DC9A /* SubmissionData.h in Headers */,
+				CEC6CF651521914E0013C03F /* Loader.h in Headers */,
+				CEC6CF941521C19B0013C03F /* WebServices.h in Headers */,
+				CEC6CF7A15219C550013C03F /* Utils.h in Headers */,
+				CEC6D0331521E1FE0013C03F /* JSON.h in Headers */,
+				CEC6D0341521E1FE0013C03F /* NSObject+SBJSON.h in Headers */,
+				CEC6D0361521E1FE0013C03F /* NSString+SBJSON.h in Headers */,
+				CEC6D0381521E1FE0013C03F /* SBJSON.h in Headers */,
+				CEC6D03A1521E1FE0013C03F /* SBJsonBase.h in Headers */,
+				CEC6D03C1521E1FE0013C03F /* SBJsonParser.h in Headers */,
+				CEC6D03E1521E1FE0013C03F /* SBJsonWriter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CEC6CF2B1521833C0013C03F /* PWINTY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC6CF501521833C0013C03F /* Build configuration list for PBXNativeTarget "PWINTY" */;
+			buildPhases = (
+				CEC6CF281521833C0013C03F /* Sources */,
+				CEC6CF291521833C0013C03F /* Frameworks */,
+				CEC6CF2A1521833C0013C03F /* Headers */,
+				CED96209152AF97900A6D3D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PWINTY;
+			productName = PWINTY;
+			productReference = CEC6CF2C1521833C0013C03F /* libPWINTY.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CEC6CF3B1521833C0013C03F /* PWINTYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC6CF531521833C0013C03F /* Build configuration list for PBXNativeTarget "PWINTYTests" */;
+			buildPhases = (
+				CEC6CF371521833C0013C03F /* Sources */,
+				CEC6CF381521833C0013C03F /* Frameworks */,
+				CEC6CF391521833C0013C03F /* Resources */,
+				CEC6CF3A1521833C0013C03F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC6CF431521833C0013C03F /* PBXTargetDependency */,
+			);
+			name = PWINTYTests;
+			productName = PWINTYTests;
+			productReference = CEC6CF3C1521833C0013C03F /* PWINTYTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC6CF231521833C0013C03F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Sibers;
+			};
+			buildConfigurationList = CEC6CF261521833C0013C03F /* Build configuration list for PBXProject "PWINTY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC6CF211521833C0013C03F;
+			productRefGroup = CEC6CF2D1521833C0013C03F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC6CF2B1521833C0013C03F /* PWINTY */,
+				CEC6CF3B1521833C0013C03F /* PWINTYTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC6CF391521833C0013C03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6CF4A1521833C0013C03F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEC6CF3A1521833C0013C03F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		CED96209152AF97900A6D3D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Version 2.0 (updated for Xcode 4, with some fixes)\n# Changes:\n#    - Works with xcode 4, even when running xcode 3 projects (Workarounds for apple bugs)\n#    - Faster / better: only runs lipo once, instead of once per recursion\n#    - Added some debugging statemetns that can be switched on/off by changing the DEBUG_THIS_SCRIPT variable to \"true\"\n#    - Fixed some typos\n# \n# Purpose:\n#   Create a static library for iPhone from within XCode\n#   Because Apple staff DELIBERATELY broke Xcode to make this impossible from the GUI (Xcode 3.2.3 specifically states this in the Release notes!)\n#   ...no, I don't understand why they did this!\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n# More info: see this Stack Overflow question: http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\"\nxcodebuild -configuration \"${CONFIGURATION}\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nlipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}/usr/local/include\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}/usr/local/include\"\n# * needs to be outside the double quotes?\ncp \"${CURRENTCONFIG_DEVICE_DIR}/usr/local/include/\"* \"${CREATING_UNIVERSAL_DIR}/usr/local/include\"\nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC6CF281521833C0013C03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6CF361521833C0013C03F /* PWINTY.m in Sources */,
+				CEC6CF661521914E0013C03F /* Loader.m in Sources */,
+				CEC6CF7B15219C550013C03F /* Utils.m in Sources */,
+				CEC6CF7F15219C8A0013C03F /* PwintyKeys.m in Sources */,
+				CEC6CF951521C19B0013C03F /* WebServices.m in Sources */,
+				CEC6D0201521DFD90013C03F /* OrdersData.m in Sources */,
+				CEC6D0351521E1FE0013C03F /* NSObject+SBJSON.m in Sources */,
+				CEC6D0371521E1FE0013C03F /* NSString+SBJSON.m in Sources */,
+				CEC6D0391521E1FE0013C03F /* SBJSON.m in Sources */,
+				CEC6D03B1521E1FE0013C03F /* SBJsonBase.m in Sources */,
+				CEC6D03D1521E1FE0013C03F /* SBJsonParser.m in Sources */,
+				CEC6D03F1521E1FE0013C03F /* SBJsonWriter.m in Sources */,
+				CEE8002115247BEA00E1DC9A /* SubmissionData.m in Sources */,
+				CEE800261524813500E1DC9A /* PhotosData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC6CF371521833C0013C03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6CF4D1521833C0013C03F /* PWINTYTests.m in Sources */,
+				CEAC723C1522E1A1004CCA71 /* WebServices.m in Sources */,
+				CEEDB22A1525DFBC00DBEF09 /* OrdersData.m in Sources */,
+				CEEDB22F1525E20D00DBEF09 /* OrderDataTest.m in Sources */,
+				CEAF3E8A15297B3F00B6B0BA /* SubmissionDataTest.m in Sources */,
+				CEAF3ED91529C55200B6B0BA /* PhotosdataTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC6CF431521833C0013C03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC6CF2B1521833C0013C03F /* PWINTY */;
+			targetProxy = CEC6CF421521833C0013C03F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC6CF481521833C0013C03F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC6CF491521833C0013C03F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC6CF4E1521833C0013C03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos5.0;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Debug;
+		};
+		CEC6CF4F1521833C0013C03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos5.0;
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Release;
+		};
+		CEC6CF511521833C0013C03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PWINTY.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PWINTY/PWINTY-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Debug;
+		};
+		CEC6CF521521833C0013C03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PWINTY.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PWINTY/PWINTY-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Release;
+		};
+		CEC6CF541521833C0013C03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PWINTY/PWINTY-Prefix.pch";
+				INFOPLIST_FILE = "PWINTYTests/PWINTYTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEC6CF551521833C0013C03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PWINTY/PWINTY-Prefix.pch";
+				INFOPLIST_FILE = "PWINTYTests/PWINTYTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC6CF261521833C0013C03F /* Build configuration list for PBXProject "PWINTY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC6CF4E1521833C0013C03F /* Debug */,
+				CEC6CF4F1521833C0013C03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC6CF501521833C0013C03F /* Build configuration list for PBXNativeTarget "PWINTY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC6CF511521833C0013C03F /* Debug */,
+				CEC6CF521521833C0013C03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC6CF531521833C0013C03F /* Build configuration list for PBXNativeTarget "PWINTYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC6CF541521833C0013C03F /* Debug */,
+				CEC6CF551521833C0013C03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC6CF231521833C0013C03F /* Project object */;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[WebServices addPhotoToOrderWithParams:]:WebServices.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AllOrdersViewController tableView:cellForRowAtIndexPath:]:AllOrdersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "oredrs">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController ordersLoadedWithResult:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[WebServices createNewOrderWithParams:]:WebServices.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[WebServices loadingDidFinishWithResult:andLoader:]:WebServices.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PWINTY initWithMerchantID:APIKey:andDelegate:]:PWINTY.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[WebServices builPOSTRequestFirPhotosUploadingWithType:URL:params:]:WebServices.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[WebServices buildPOSTRequestWithType:URL:body:]:WebServices.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_merchantID">
+            </PersistentString>
+            <PersistentString
+               value = "_APIKey">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AllOrdersViewController alertView:clickedButtonAtIndex:]:AllOrdersViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "alertView.cancelButtonIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

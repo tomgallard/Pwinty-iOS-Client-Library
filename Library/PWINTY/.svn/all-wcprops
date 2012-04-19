@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/11/trunk/Library/PWINTY
+END
+PWINTY.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/13/trunk/Library/PWINTY/PWINTY.h
+END
+SubmissionData.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/13/trunk/Library/PWINTY/SubmissionData.m
+END
+PwintyKeys.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/13/trunk/Library/PWINTY/PwintyKeys.m
+END
+OrdersData.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/13/trunk/Library/PWINTY/OrdersData.m
+END
+PWINTY.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/13/trunk/Library/PWINTY/PWINTY.m
+END
+Utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/7/trunk/Library/PWINTY/Utils.h
+END
+WebServicesProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/13/trunk/Library/PWINTY/WebServicesProtocol.h
+END
+Utils.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/11/trunk/Library/PWINTY/Utils.m
+END
+PhotosData.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/14/trunk/Library/PWINTY/PhotosData.h
+END
+Loader.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/11/trunk/Library/PWINTY/Loader.h
+END
+PWINTY-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/6/trunk/Library/PWINTY/PWINTY-Prefix.pch
+END
+PhotosData.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/13/trunk/Library/PWINTY/PhotosData.m
+END
+Loader.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/11/trunk/Library/PWINTY/Loader.m
+END
+WebServices.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/13/trunk/Library/PWINTY/WebServices.h
+END
+SubmissionData.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/13/trunk/Library/PWINTY/SubmissionData.h
+END
+WebServices.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/15/trunk/Library/PWINTY/WebServices.m
+END
+PwintyKeys.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/13/trunk/Library/PWINTY/PwintyKeys.h
+END
+OrdersData.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/11/trunk/Library/PWINTY/OrdersData.h
+END

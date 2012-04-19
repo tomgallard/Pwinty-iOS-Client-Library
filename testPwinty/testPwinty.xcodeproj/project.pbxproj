@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2B42F81525863B00348E7F /* myaso.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2B42F71525863B00348E7F /* myaso.png */; };
+		CEAC725E1522F281004CCA71 /* AllOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC725C1522F281004CCA71 /* AllOrdersViewController.m */; };
+		CEAC725F1522F281004CCA71 /* AllOrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAC725D1522F281004CCA71 /* AllOrdersViewController.xib */; };
+		CEC6CFB71521D9370013C03F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CFB61521D9370013C03F /* UIKit.framework */; };
+		CEC6CFB91521D9370013C03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CFB81521D9370013C03F /* Foundation.framework */; };
+		CEC6CFBB1521D9370013C03F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CFBA1521D9370013C03F /* CoreGraphics.framework */; };
+		CEC6CFC11521D9370013C03F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC6CFBF1521D9370013C03F /* InfoPlist.strings */; };
+		CEC6CFC31521D9370013C03F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CFC21521D9370013C03F /* main.m */; };
+		CEC6CFC71521D9370013C03F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CFC61521D9370013C03F /* AppDelegate.m */; };
+		CEC6CFCA1521D9370013C03F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6CFC91521D9370013C03F /* ViewController.m */; };
+		CEC6CFCD1521D9370013C03F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC6CFCB1521D9370013C03F /* ViewController.xib */; };
+		CEC6CFD51521D9370013C03F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CFD41521D9370013C03F /* SenTestingKit.framework */; };
+		CEC6CFD61521D9370013C03F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CFB61521D9370013C03F /* UIKit.framework */; };
+		CEC6CFD71521D9370013C03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC6CFB81521D9370013C03F /* Foundation.framework */; };
+		CEC6CFDF1521D9370013C03F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC6CFDD1521D9370013C03F /* InfoPlist.strings */; };
+		CED96217152AF9FE00A6D3D3 /* libPWINTY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED96216152AF9FE00A6D3D3 /* libPWINTY.a */; };
+		CEE8000C15245A0B00E1DC9A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8000B15245A0B00E1DC9A /* Model.m */; };
+		CEE8001715246EDE00E1DC9A /* OrdersListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE8001615246EDE00E1DC9A /* OrdersListCell.m */; };
+		CEE8001915246EF300E1DC9A /* OrdersListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE8001815246EF300E1DC9A /* OrdersListCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC6CFD81521D9370013C03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC6CFA91521D9370013C03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC6CFB11521D9370013C03F;
+			remoteInfo = testPwinty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2B42F71525863B00348E7F /* myaso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myaso.png; sourceTree = "<group>"; };
+		CEAC725B1522F281004CCA71 /* AllOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllOrdersViewController.h; sourceTree = "<group>"; };
+		CEAC725C1522F281004CCA71 /* AllOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllOrdersViewController.m; sourceTree = "<group>"; };
+		CEAC725D1522F281004CCA71 /* AllOrdersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllOrdersViewController.xib; sourceTree = "<group>"; };
+		CEC6CFB21521D9370013C03F /* testPwinty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testPwinty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC6CFB61521D9370013C03F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC6CFB81521D9370013C03F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC6CFBA1521D9370013C03F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC6CFBE1521D9370013C03F /* testPwinty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testPwinty-Info.plist"; sourceTree = "<group>"; };
+		CEC6CFC01521D9370013C03F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC6CFC21521D9370013C03F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC6CFC41521D9370013C03F /* testPwinty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testPwinty-Prefix.pch"; sourceTree = "<group>"; };
+		CEC6CFC51521D9370013C03F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC6CFC61521D9370013C03F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC6CFC81521D9370013C03F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEC6CFC91521D9370013C03F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEC6CFCC1521D9370013C03F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CEC6CFD31521D9370013C03F /* testPwintyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPwintyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC6CFD41521D9370013C03F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEC6CFDC1521D9370013C03F /* testPwintyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testPwintyTests-Info.plist"; sourceTree = "<group>"; };
+		CEC6CFDE1521D9370013C03F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC6CFE01521D9370013C03F /* testPwintyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testPwintyTests.h; sourceTree = "<group>"; };
+		CEC6CFE11521D9370013C03F /* testPwintyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPwintyTests.m; sourceTree = "<group>"; };
+		CED96216152AF9FE00A6D3D3 /* libPWINTY.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPWINTY.a; sourceTree = "<group>"; };
+		CED96234152B004700A6D3D3 /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
+		CED96235152B004700A6D3D3 /* OrdersData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersData.h; sourceTree = "<group>"; };
+		CED96236152B004700A6D3D3 /* PhotosData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosData.h; sourceTree = "<group>"; };
+		CED96237152B004700A6D3D3 /* PWINTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWINTY.h; sourceTree = "<group>"; };
+		CED96238152B004700A6D3D3 /* SubmissionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmissionData.h; sourceTree = "<group>"; };
+		CEE8000A15245A0B00E1DC9A /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		CEE8000B15245A0B00E1DC9A /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		CEE8001515246EDE00E1DC9A /* OrdersListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersListCell.h; sourceTree = "<group>"; };
+		CEE8001615246EDE00E1DC9A /* OrdersListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersListCell.m; sourceTree = "<group>"; };
+		CEE8001815246EF300E1DC9A /* OrdersListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrdersListCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC6CFAF1521D9370013C03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6CFB71521D9370013C03F /* UIKit.framework in Frameworks */,
+				CEC6CFB91521D9370013C03F /* Foundation.framework in Frameworks */,
+				CEC6CFBB1521D9370013C03F /* CoreGraphics.framework in Frameworks */,
+				CED96217152AF9FE00A6D3D3 /* libPWINTY.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC6CFCF1521D9370013C03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6CFD51521D9370013C03F /* SenTestingKit.framework in Frameworks */,
+				CEC6CFD61521D9370013C03F /* UIKit.framework in Frameworks */,
+				CEC6CFD71521D9370013C03F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC6CFA71521D9370013C03F = {
+			isa = PBXGroup;
+			children = (
+				CEC6CFBC1521D9370013C03F /* testPwinty */,
+				CEC6CFDA1521D9370013C03F /* testPwintyTests */,
+				CEC6CFB51521D9370013C03F /* Frameworks */,
+				CEC6CFB31521D9370013C03F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC6CFB31521D9370013C03F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CFB21521D9370013C03F /* testPwinty.app */,
+				CEC6CFD31521D9370013C03F /* testPwintyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC6CFB51521D9370013C03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CFB61521D9370013C03F /* UIKit.framework */,
+				CEC6CFB81521D9370013C03F /* Foundation.framework */,
+				CEC6CFBA1521D9370013C03F /* CoreGraphics.framework */,
+				CEC6CFD41521D9370013C03F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC6CFBC1521D9370013C03F /* testPwinty */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDB1F21525D35400DBEF09 /* PwintyLib */,
+				CE2B42F71525863B00348E7F /* myaso.png */,
+				CEC6CFC51521D9370013C03F /* AppDelegate.h */,
+				CEC6CFC61521D9370013C03F /* AppDelegate.m */,
+				CEC6CFC81521D9370013C03F /* ViewController.h */,
+				CEC6CFC91521D9370013C03F /* ViewController.m */,
+				CEC6CFCB1521D9370013C03F /* ViewController.xib */,
+				CEC6CFBD1521D9370013C03F /* Supporting Files */,
+				CEAC725B1522F281004CCA71 /* AllOrdersViewController.h */,
+				CEAC725C1522F281004CCA71 /* AllOrdersViewController.m */,
+				CEAC725D1522F281004CCA71 /* AllOrdersViewController.xib */,
+				CEE8000A15245A0B00E1DC9A /* Model.h */,
+				CEE8000B15245A0B00E1DC9A /* Model.m */,
+				CEE8001515246EDE00E1DC9A /* OrdersListCell.h */,
+				CEE8001615246EDE00E1DC9A /* OrdersListCell.m */,
+				CEE8001815246EF300E1DC9A /* OrdersListCell.xib */,
+			);
+			path = testPwinty;
+			sourceTree = "<group>";
+		};
+		CEC6CFBD1521D9370013C03F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CFBE1521D9370013C03F /* testPwinty-Info.plist */,
+				CEC6CFBF1521D9370013C03F /* InfoPlist.strings */,
+				CEC6CFC21521D9370013C03F /* main.m */,
+				CEC6CFC41521D9370013C03F /* testPwinty-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC6CFDA1521D9370013C03F /* testPwintyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CFE01521D9370013C03F /* testPwintyTests.h */,
+				CEC6CFE11521D9370013C03F /* testPwintyTests.m */,
+				CEC6CFDB1521D9370013C03F /* Supporting Files */,
+			);
+			path = testPwintyTests;
+			sourceTree = "<group>";
+		};
+		CEC6CFDB1521D9370013C03F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6CFDC1521D9370013C03F /* testPwintyTests-Info.plist */,
+				CEC6CFDD1521D9370013C03F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED96233152B004700A6D3D3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CED96234152B004700A6D3D3 /* Keys.h */,
+				CED96235152B004700A6D3D3 /* OrdersData.h */,
+				CED96236152B004700A6D3D3 /* PhotosData.h */,
+				CED96237152B004700A6D3D3 /* PWINTY.h */,
+				CED96238152B004700A6D3D3 /* SubmissionData.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		CEEDB1F21525D35400DBEF09 /* PwintyLib */ = {
+			isa = PBXGroup;
+			children = (
+				CED96233152B004700A6D3D3 /* include */,
+				CED96216152AF9FE00A6D3D3 /* libPWINTY.a */,
+			);
+			path = PwintyLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC6CFB11521D9370013C03F /* testPwinty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC6CFE51521D9370013C03F /* Build configuration list for PBXNativeTarget "testPwinty" */;
+			buildPhases = (
+				CEC6CFAE1521D9370013C03F /* Sources */,
+				CEC6CFAF1521D9370013C03F /* Frameworks */,
+				CEC6CFB01521D9370013C03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testPwinty;
+			productName = testPwinty;
+			productReference = CEC6CFB21521D9370013C03F /* testPwinty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC6CFD21521D9370013C03F /* testPwintyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC6CFE81521D9370013C03F /* Build configuration list for PBXNativeTarget "testPwintyTests" */;
+			buildPhases = (
+				CEC6CFCE1521D9370013C03F /* Sources */,
+				CEC6CFCF1521D9370013C03F /* Frameworks */,
+				CEC6CFD01521D9370013C03F /* Resources */,
+				CEC6CFD11521D9370013C03F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC6CFD91521D9370013C03F /* PBXTargetDependency */,
+			);
+			name = testPwintyTests;
+			productName = testPwintyTests;
+			productReference = CEC6CFD31521D9370013C03F /* testPwintyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC6CFA91521D9370013C03F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Sibers;
+			};
+			buildConfigurationList = CEC6CFAC1521D9370013C03F /* Build configuration list for PBXProject "testPwinty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC6CFA71521D9370013C03F;
+			productRefGroup = CEC6CFB31521D9370013C03F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC6CFB11521D9370013C03F /* testPwinty */,
+				CEC6CFD21521D9370013C03F /* testPwintyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC6CFB01521D9370013C03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6CFC11521D9370013C03F /* InfoPlist.strings in Resources */,
+				CEC6CFCD1521D9370013C03F /* ViewController.xib in Resources */,
+				CEAC725F1522F281004CCA71 /* AllOrdersViewController.xib in Resources */,
+				CEE8001915246EF300E1DC9A /* OrdersListCell.xib in Resources */,
+				CE2B42F81525863B00348E7F /* myaso.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC6CFD01521D9370013C03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6CFDF1521D9370013C03F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEC6CFD11521D9370013C03F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC6CFAE1521D9370013C03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6CFC31521D9370013C03F /* main.m in Sources */,
+				CEC6CFC71521D9370013C03F /* AppDelegate.m in Sources */,
+				CEC6CFCA1521D9370013C03F /* ViewController.m in Sources */,
+				CEAC725E1522F281004CCA71 /* AllOrdersViewController.m in Sources */,
+				CEE8000C15245A0B00E1DC9A /* Model.m in Sources */,
+				CEE8001715246EDE00E1DC9A /* OrdersListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC6CFCE1521D9370013C03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC6CFD91521D9370013C03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC6CFB11521D9370013C03F /* testPwinty */;
+			targetProxy = CEC6CFD81521D9370013C03F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC6CFBF1521D9370013C03F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC6CFC01521D9370013C03F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC6CFCB1521D9370013C03F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC6CFCC1521D9370013C03F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEC6CFDD1521D9370013C03F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC6CFDE1521D9370013C03F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC6CFE31521D9370013C03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testPwinty/PwintyLib\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testPwinty/PwintyLib\"/**";
+			};
+			name = Debug;
+		};
+		CEC6CFE41521D9370013C03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testPwinty/PwintyLib\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testPwinty/PwintyLib\"/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC6CFE61521D9370013C03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrey Chashkov (U4RY46T73D)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testPwinty/testPwinty-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testPwinty/PwintyLib\"/**";
+				INFOPLIST_FILE = "testPwinty/testPwinty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/testPwinty/PwintyLib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2282DBE2-6914-49D8-9110-053CC772E598";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testPwinty/PwintyLib\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC6CFE71521D9370013C03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HireRussians LLC";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testPwinty/testPwinty-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testPwinty/PwintyLib\"/**";
+				INFOPLIST_FILE = "testPwinty/testPwinty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/testPwinty/PwintyLib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "985B01B2-5906-4241-9DA4-986B391D0649";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testPwinty/PwintyLib\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEC6CFE91521D9370013C03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testPwinty.app/testPwinty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testPwinty/testPwinty-Prefix.pch";
+				INFOPLIST_FILE = "testPwintyTests/testPwintyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEC6CFEA1521D9370013C03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testPwinty.app/testPwinty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testPwinty/testPwinty-Prefix.pch";
+				INFOPLIST_FILE = "testPwintyTests/testPwintyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC6CFAC1521D9370013C03F /* Build configuration list for PBXProject "testPwinty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC6CFE31521D9370013C03F /* Debug */,
+				CEC6CFE41521D9370013C03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC6CFE51521D9370013C03F /* Build configuration list for PBXNativeTarget "testPwinty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC6CFE61521D9370013C03F /* Debug */,
+				CEC6CFE71521D9370013C03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC6CFE81521D9370013C03F /* Build configuration list for PBXNativeTarget "testPwintyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC6CFE91521D9370013C03F /* Debug */,
+				CEC6CFEA1521D9370013C03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC6CFA91521D9370013C03F /* Project object */;
+}

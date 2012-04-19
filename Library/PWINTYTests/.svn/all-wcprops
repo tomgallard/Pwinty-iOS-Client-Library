@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/10/trunk/Library/PWINTYTests
+END
+PWINTYTests-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/1/trunk/Library/PWINTYTests/PWINTYTests-Info.plist
+END
+OrderDataTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/10/trunk/Library/PWINTYTests/OrderDataTest.m
+END
+SubmissionDataTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/7/trunk/Library/PWINTYTests/SubmissionDataTest.m
+END
+PhotosdataTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/10/trunk/Library/PWINTYTests/PhotosdataTest.m
+END
+PWINTYTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/6/trunk/Library/PWINTYTests/PWINTYTests.h
+END
+PWINTYTests.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/6/trunk/Library/PWINTYTests/PWINTYTests.m
+END
+OrderDataTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/6/trunk/Library/PWINTYTests/OrderDataTest.h
+END
+SubmissionDataTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/7/trunk/Library/PWINTYTests/SubmissionDataTest.h
+END
+PhotosdataTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/8/trunk/Library/PWINTYTests/PhotosdataTest.h
+END
