@@ -63,7 +63,6 @@
 		CEC6CFE01521D9370013C03F /* testPwintyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testPwintyTests.h; sourceTree = "<group>"; };
 		CEC6CFE11521D9370013C03F /* testPwintyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPwintyTests.m; sourceTree = "<group>"; };
 		CED96216152AF9FE00A6D3D3 /* libPWINTY.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPWINTY.a; sourceTree = "<group>"; };
-		CED96234152B004700A6D3D3 /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
 		CED96235152B004700A6D3D3 /* OrdersData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersData.h; sourceTree = "<group>"; };
 		CED96236152B004700A6D3D3 /* PhotosData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosData.h; sourceTree = "<group>"; };
 		CED96237152B004700A6D3D3 /* PWINTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWINTY.h; sourceTree = "<group>"; };
@@ -186,7 +185,6 @@
 		CED96233152B004700A6D3D3 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				CED96234152B004700A6D3D3 /* Keys.h */,
 				CED96235152B004700A6D3D3 /* OrdersData.h */,
 				CED96236152B004700A6D3D3 /* PhotosData.h */,
 				CED96237152B004700A6D3D3 /* PWINTY.h */,
